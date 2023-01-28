@@ -1,0 +1,57 @@
+.headerAddImage{
+    justify-content: flex-start;
+    display:flex;   
+}
+.headerBrand{
+    width:30%;
+}
+.headerNav{
+    width:70%;
+    justify-content: space-around;
+    display:flex;
+}
+.mainAddImage{
+    border: 2px solid white;
+}
+.textmainAddImage{
+    text-align: center;
+}
+.cardAddImage{
+    display: flex;
+    justify-content:flex-start ;
+    border: ;
+    max-height: 30%;
+    background-color: gray;
+    padding-top:100px ;
+    padding-bottom: 100px;
+
+ }
+.cardImageAddImage{
+    width:fit-content;
+    height:300px;
+    border: 2px solid red;
+}
+.cardTextAddImage{
+    border: 2px solid blue;
+    width: ;
+
+}
+.sectionMainAddImage{
+ 
+
+}
+.textsectionAddImage{
+    text-align: center;
+}
+.groupCardImages{
+    border:;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.cardImageGroupCard{
+    width:240px;
+    height:110px;
+}

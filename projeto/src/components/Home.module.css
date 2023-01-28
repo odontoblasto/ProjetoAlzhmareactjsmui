@@ -1,0 +1,33 @@
+.headerHome{
+
+    justify-content: flex-start;
+    display:flex;   
+}
+.headerBrand{
+    width:30%;
+}
+.headerNav{
+    width:70%;
+    justify-content: space-around;
+    display:flex;
+}
+.mainHome{
+    width: 100%;
+    border:2px solid white;
+    background-color:;
+    display: flex;
+    justify-content: space-between;
+}
+.textMainHome{
+    width: 50%;
+    border:2px solid red;
+}
+.imgMainHome{
+   
+
+}
+.imgHome{
+    width:fit-content;
+    border:2px solid red;
+    
+}

@@ -1,0 +1,54 @@
+.headerProfile{
+    justify-content: flex-start;
+    display:flex;   
+}
+.headerBrand{
+    width:30%;
+}
+.headerNav{
+    width:70%;
+    justify-content: space-around;
+    display:flex;
+}
+.mainProfile{
+    border: 2px solid white;
+}
+.textmainProfile{
+    text-align: center;
+}
+.cardProfile{
+    display: flex;
+    justify-content:flex-start ;
+    border: ;
+    max-height: 30%;
+
+ }
+.cardImageProfile{
+    width:fit-content;
+    height:300px;
+    border: 2px solid red;
+}
+.cardTextProfile{
+    border: 2px solid blue;
+    width: ;
+
+}
+.sectionMainProfile{
+ 
+
+}
+.textsectionProfile{
+    text-align: center;
+}
+.groupCardImages{
+    border:;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.cardImageGroupCard{
+    width:240px;
+    height:110px;
+}
