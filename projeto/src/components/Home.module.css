@@ -1,33 +1,8 @@
-.headerHome{
+.imageHome{
 
-    justify-content: flex-start;
-    display:flex;   
-}
-.headerBrand{
-    width:30%;
-}
-.headerNav{
-    width:70%;
-    justify-content: space-around;
-    display:flex;
-}
-.mainHome{
-    width: 100%;
-    border:2px solid white;
-    background-color:;
-    display: flex;
-    justify-content: space-between;
-}
-.textMainHome{
-    width: 50%;
-    border:2px solid red;
-}
-.imgMainHome{
-   
+    object-fit: cover;
+    position: relative;
+    top:-150px;
+    left:-240px;
 
-}
-.imgHome{
-    width:fit-content;
-    border:2px solid red;
-    
 }
