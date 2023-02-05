@@ -44,7 +44,7 @@ export function Home(){
                     <Link to="/">Home</Link>
                     <Link to="/register">Registro</Link>
                     <Link to="/login">Entrar</Link>
-                    <Link to="/profile">Profile</Link>
+                    {/* <Link to="/profile">Profile</Link> */}
                     <Link to="/addimage">AddImage</Link>
                            
                 </CardActions>
