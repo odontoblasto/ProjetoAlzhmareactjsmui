@@ -12,5 +12,8 @@ doenças autoimunes, vítimas de AVC e crianças com dificuldade de concentraç�
 
 Essention Question- engenharia Software-classcraft
 Carlos, Leonardo e Pedro-
+Hipótese :
+Verificar se a estimulação cognitiva digital concorre para a melhoria do quadro clínico apresentado pelo usuário.
+
 Para a 1 Fase do projeto, vislumbramos que a acessibilidade seja fundamental, pois estamos tentando integrar pessoas que além das dificuldades cognitivas, também podem apresentar, perda da acuidade visual e motora. Além disso, a formatação das informações para a criação dos perfis é crítica e ,
 possivelmente, será feita por pessoas leigas. Por isso, cuidado deve ser tomado com FontSize e devemos proporcionar uma função que permita a maior área possível de imagem, já contando que o software, em sua grande maioria será utilizado em smartphones.
