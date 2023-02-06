@@ -18,32 +18,36 @@ export function AddImage (){
 
     const {memo} = useContext(CardContext)
 
+
     const [cards,setCards] = useState([])
 
     const formik = useFormik({
         initialValues: {
-       
           categoryPessoa: '',
           categoryFamilia: '',
           categoryLocal: '',
           categoryEvento: '',
           photo: '',
         },
-        onSubmit: (values)=>{
+        onSubmit: (values,{resetForm})=>{
             setCards([...cards,values])
-
-            // console.log("cards",cards)
-            // console.log("cardslen",cards.length)   
-            // console.log("initial values",values)
-            // console.log("initial valueslen",values.length)
-           
-        }
-        
+        resetForm(values = '')}        
     })
-    function handleDelete(memory){
-        console.log(memory)
-        // setCards(...cards,memory.photo == null)
 
+
+    function getMemory(index){
+        console.log("indexgetmemory",index)
+      
+       
+       
+    }
+    function handleDelete(photo){
+        // console.log("memory.photo",memory)
+        // console.log(cards)
+        // console.log("cardslen",cards.length) 
+        setCards(cards.filter((element)=> element.photo != photo))
+        // console.log("cards2",cards)
+        // console.log(cards.length)
     }
 
     return(
@@ -58,6 +62,23 @@ export function AddImage (){
                        
                         <Grid container spacing={2}>
 
+                        <Grid item xs={12}align="center">
+                                <Paper  elevation={3}>
+                                <label>
+                                <Typography variant='h5'mb={2} align='left'> 
+                                Escolha Sua Foto
+                                </Typography>
+                                </label>
+                                <input
+                                type='file'
+                                name='photo'
+                                accept='image/*'
+                                onChange={(e) =>
+                                formik.setFieldValue
+                                ('photo', e.currentTarget.files[0])}/>
+                                </Paper>
+                            </Grid>
+                            
                                <Grid item xs={6}>    
                                 <Paper elevation={3}>                     
                                 <label>
@@ -124,47 +145,32 @@ export function AddImage (){
                                 </Paper>
                             </Grid>
                 
-                            <Grid item xs={6}>
-                                <Paper  elevation={3}>
-                                <label>
-                                <Typography variant='h5'mb={2} align='left'> 
-                                Escolha Sua Foto
-                                </Typography>
-                                </label>
-                                <input
-                                type='file'
-                                name='photo'
-                                accept='image/*'
-                                onChange={(e) =>
-                                formik.setFieldValue
-                                ('photo', e.currentTarget.files[0])
-                                }
-                                />
-                                </Paper>
-                            </Grid>
+                    
                             
-                            <Grid item xs={6}>
+                            <Grid item xs={5} align="center">
+                           {(formik.values.photo != "")?(
                             <Button variant='contained'
                             type='submit 'color='success'>
-                            Adicionar Foto</Button>
+                            Adicionar Foto</Button>):(<p> SEM FOTO</p>)}
                             </Grid>
-                           
+                                                     
                         </Grid>    
-                        </form>          
-          
-            { cards.map((memory,index)=> 
+                        </form>   
+            
+            {cards.map((memory,index)=> 
                        
-                       (<>
-                        
+                       (<>                        
                                 <Grid container mt={5}>
                                 <Grid item xs={7}mb={3} mr={5}>
                                     <Paper elevation={10}>
-                                    <img key={index}src={URL.createObjectURL(memory.photo)}
-                                     alt="" style={{width:"100%",}}/>
-                                    <Button variant='contained' color='error'
-                                     onClick={()=>{handleDelete(memory.photo)}}>
-                                    Alterar Foto</Button>
+                                        <img key={index}src={URL.createObjectURL(memory.photo)}
+                                        alt="" style={{width:"100%",}}/>
+                                        <Button variant='contained' color='error'
+                                        onClick={()=>{handleDelete(memory.photo,index)}}>
+                                        Remover ESSA Foto</Button>                                   
+
                                     </Paper>
+
                                 </Grid>
                                 <Grid item xs={4}>
                                     <Paper elevation={3}>
@@ -214,8 +220,7 @@ export function AddImage (){
                         <p>memo  === {memo.categoryLocal}</p>
                         <p>memo  === {memo.categoryEvento}</p> */}
                 
-                       </>
-                       ))}
+                        </>))}
 
                        
                             <Box sx={{
@@ -226,7 +231,7 @@ export function AddImage (){
                                  ml: 5,
                                  mt:16,                               
                             }}>
-                                
+
                             <Grid item xs={2}spacing={5}mr={5}>
                                 <Link to="/">Home</Link>
                             </Grid> 

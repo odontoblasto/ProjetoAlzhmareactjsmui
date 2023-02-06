@@ -1,12 +1,11 @@
 import {Grid,Box} from "@mui/material"
 import { Link } from "react-router-dom"
 
-
-export function Login (){
+export function Resume (){
 
     return(
         <>
-        <h1>Entrar no Site</h1>
+        <h1>Suas Atividades</h1>
         <h2> Under Construction </h2>
         <Box       sx={{
                                 display: 'flex',
@@ -33,7 +32,6 @@ export function Login (){
                                 <Link to="/addimage">AddImage</Link>
                             </Grid>
                             </Box>
-                       
         </>
     )
 }

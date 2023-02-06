@@ -5,6 +5,7 @@ export function Register (){
 
     return(
         <>
+        <h1>Registro</h1>
         <h2> Under Construction </h2>
         <Box       sx={{
                                 display: 'flex',

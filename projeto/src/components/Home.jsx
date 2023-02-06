@@ -10,7 +10,7 @@ export function Home(){
 
     return(
         <>   
-            <Card sx={{ maxWidth: 1280 }}>
+            <Card sx={{ maxWidth: 1280,mt:2 }}>
                 <CardMedia
                     sx={{height: 550}}
                     image={foto}
@@ -43,6 +43,8 @@ export function Home(){
                     <Link to="/login">Entrar</Link>
                     {/* <Link to="/profile">Profile</Link> */}
                     <Link to="/addimage">AddImage</Link>
+                    <Link to="/play">Jogar</Link>
+                    <Link to="/resume">Suas Atividades</Link>
                 </CardActions>
 
             </Card>    
