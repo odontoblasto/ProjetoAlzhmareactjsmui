@@ -1,4 +1,4 @@
-
+import { useContext } from 'react';
 import { useFormik,Field } from 'formik';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -6,18 +6,19 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import Alert from '@mui/material/Alert';
 import { Container} from '@mui/system';
 
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import CardContext from '../contexts/CardContext';
-import { useContext } from 'react';
+
+
 
 
 export function AddImage (){
 
     const {memo} = useContext(CardContext)
-
 
     const [cards,setCards] = useState([])
 
@@ -34,14 +35,10 @@ export function AddImage (){
         resetForm(values = '')}        
     })
 
+    // function getMemory(index){
+    //     console.log("indexgetmemory",index)// }
 
-    function getMemory(index){
-        console.log("indexgetmemory",index)
-      
-       
-       
-    }
-    function handleDelete(photo){
+    function handleDelete(e,photo,index){
         // console.log("memory.photo",memory)
         // console.log(cards)
         // console.log("cardslen",cards.length) 
@@ -54,18 +51,20 @@ export function AddImage (){
 
         <>
             <Container>         
-       
-                        <Typography align='left' variant="h2" component="div" mb={3}>
-                        Adicione sua Foto
-                        </Typography>                            
-                        <form onSubmit={formik.handleSubmit} encType="multipart/form-data">
+
+                <Typography align='left' variant="h3" component="div" mb={3}pt={5}>
+                Adicione sua Memória
+                </Typography> 
+
+                <form onSubmit={formik.handleSubmit} encType="multipart/form-data">
                        
                         <Grid container spacing={2}>
+                      
 
-                        <Grid item xs={12}align="center">
+                            <Grid item xs={10}align="center">
                                 <Paper  elevation={3}>
                                 <label>
-                                <Typography variant='h5'mb={2} align='left'> 
+                                <Typography variant='h5'mb={2} pl={5} pt={5} align='left'> 
                                 Escolha Sua Foto
                                 </Typography>
                                 </label>
@@ -78,11 +77,18 @@ export function AddImage (){
                                 ('photo', e.currentTarget.files[0])}/>
                                 </Paper>
                             </Grid>
-                            
-                               <Grid item xs={6}>    
+
+                             {(formik.values.photo != "")?(<>
+                            <Grid item xs={2}>
+                                <Typography >
+                                    Selecine os Detalhes dessa Memória
+                                </Typography>   
+                            </Grid>
+
+                               <Grid item xs={5}>    
                                 <Paper elevation={3}>                     
                                 <label>
-                                    <Typography variant='h5'mb={2} align='left'> 
+                                    <Typography variant='h5'mb={2}pl={5} pt={5} align='left'> 
                                     Categoria Pessoa
                                     </Typography>
                                 </label>
@@ -97,10 +103,10 @@ export function AddImage (){
                                 </Grid>
                            
                         
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <Paper  elevation={3}>
                                 <label>
-                                <Typography variant='h5'mb={2} align='left'>
+                                <Typography variant='h5'mb={2}pl={5} pt={5} align='left'>
                                  Categoria Família
                                 </Typography>
                                 </label>
@@ -113,10 +119,10 @@ export function AddImage (){
                                 </Paper>
                             </Grid>
 
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <Paper  elevation={3}>
                                 <label>
-                                <Typography variant='h5'mb={2} align='left'>
+                                <Typography variant='h5'mb={2}pl={5} pt={5} align='left'>
                                  Categoria Local
                                 </Typography>
                                 </label>
@@ -129,10 +135,10 @@ export function AddImage (){
                                 </Paper>
                             </Grid>
 
-                            <Grid item xs={6}>
+                            <Grid item xs={5}>
                                 <Paper>
                                 <label>
-                                <Typography variant='h5'mb={2} align='left'>
+                                <Typography variant='h5'mb={2}pl={5} pt={5} align='left'>
                                 Categoria Evento
                                 </Typography>
                                 </label>
@@ -143,15 +149,24 @@ export function AddImage (){
                                 value={formik.values.categoryEvento}
                                 />
                                 </Paper>
-                            </Grid>
-                
-                    
+                            </Grid></>):
+                            (<Grid item xs={2}>
+                                <Typography >
+                                    Selecine a Foto dessa Memória
+                                </Typography>   
+                            </Grid>)}
+   
                             
                             <Grid item xs={5} align="center">
-                           {(formik.values.photo != "")?(
+                           {(formik.values.categoryPessoa 
+                           ||formik.values.categoryFamilia || formik.values.categoryLocal || 
+                           formik.values.categoryEvento)?(
                             <Button variant='contained'
                             type='submit 'color='success'>
-                            Adicionar Foto</Button>):(<p> SEM FOTO</p>)}
+                                <Typography variant='h6'>
+                                Adicionar Foto
+                                </Typography>
+                            </Button>):(<p></p>)}
                             </Grid>
                                                      
                         </Grid>    
@@ -165,9 +180,9 @@ export function AddImage (){
                                     <Paper elevation={10}>
                                         <img key={index}src={URL.createObjectURL(memory.photo)}
                                         alt="" style={{width:"100%",}}/>
-                                        <Button variant='contained' color='error'
-                                        onClick={()=>{handleDelete(memory.photo,index)}}>
-                                        Remover ESSA Foto</Button>                                   
+                                        {/* <Button variant='contained' color='error'
+                                        onClick={(e)=>{handleDelete(e,memory.photo,index)}}>
+                                        Remover ESSA Foto</Button>                                    */}
 
                                     </Paper>
 
@@ -204,7 +219,9 @@ export function AddImage (){
                                         </Typography> 
                                         </Paper>
                                                         
-                                    <Button variant='contained'color='error'>Alterar Detalhes da Foto</Button>
+                                    <Button on onClick={(e)=>handleDelete(e,memory.photo,index)}
+                                    variant='contained'color='error'>
+                                    Remover Memória</Button>
                                     </Paper>
                                 </Grid>
                                 </Grid>
@@ -236,16 +253,16 @@ export function AddImage (){
                                 <Link to="/">Home</Link>
                             </Grid> 
                             <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/register">Registro</Link>
+                                <Link to="/play">Jogar</Link>
                             </Grid>
                             <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/login">Entrar</Link>
+                                <Link to="/resume">Suas Atividades</Link>
                             </Grid>
                             {/* <Grid item xs={2}spacing={5} mr={5}>
                                 <Link to="/profile">Profile</Link>
                             </Grid> */}
                             <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/addimage">AddImage</Link>
+                                <Link to="/play">Sair</Link>
                             </Grid>
                             </Box>
                        
