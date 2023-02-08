@@ -5,6 +5,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardActions from '@mui/material/CardActions';
 import CardMedia from '@mui/material/CardMedia';
+import{ Box,Button } from '@mui/material'
 
 export function Home(){
 
@@ -37,15 +38,19 @@ export function Home(){
 
                 </CardContent>
 
-                <CardActions>
-                    <Link to="/">Home</Link>
-                    <Link to="/register">Registro</Link>
-                    <Link to="/login">Entrar</Link>
-                    {/* <Link to="/profile">Profile</Link> */}
-                    <Link to="/addimage">AddImage</Link>
-                    <Link to="/play">Jogar</Link>
-                    <Link to="/resume">Suas Atividades</Link>
-                </CardActions>
+            
+                <Box sx={{display:'flex',justifyContent:'space-evenly'}}>   
+
+                    <Button variant='outlined'mr={5}><Link to="/">Home</Link></Button>
+                    <Button variant='outlined'><Link to="/register">Registro</Link></Button>
+                    <Button variant='outlined'><Link to="/login">Entrar</Link></Button>
+                    <Button variant='outlined'><Link to="/addimage">Adicionar Memórias</Link></Button>
+                    <Button variant='outlined'><Link to="/play">Jogar</Link></Button>
+                    <Button variant='outlined'><Link to="/resume">Suas Atividades</Link></Button>
+                    <Button variant='outlined'><Link to="/play">Sair</Link></Button>
+
+                </Box>  
+                
 
             </Card>    
         </>

@@ -1,12 +1,12 @@
 import { useContext,useState } from "react"
-
+import {MemoryContext} from '../contexts/MemoryContext';
 import {Grid,Box,Typography,Paper,FormControlLabel,FormControl
-,FormLabel,RadioGroup,Radio} from "@mui/material"
+,FormLabel,RadioGroup,Radio,Container,Button} from "@mui/material"
 import { Link } from "react-router-dom"
 
 export function Play(){
 
-
+    const {memo} = useContext(MemoryContext)
     const [value, setValue] = useState('')
 
     function handleChangeRadio(e){
@@ -14,83 +14,116 @@ export function Play(){
         
     }
   
- 
-      <FormControl>
-        <FormLabel id="demo-controlled-radio-buttons-group">Gender</FormLabel>
-        <RadioGroup
-          aria-labelledby="demo-controlled-radio-buttons-group"
-          name="controlled-radio-buttons-group"
-          value={value}
-         
-        >
-          <FormControlLabel value="female" control={<Radio />} label="Female" />
-          <FormControlLabel value="male" control={<Radio />} label="Male" />
-        </RadioGroup>
-      </FormControl>
-
-    return(
+     return(
         <>
+         <Container> 
             <Typography align='left' variant="h3" component="div" mb={3}pt={5}>
-            Jogo da Memória
+            Teste Sua Memória
             </Typography> 
 
-            <Box sx={{
-                    display: 'flex',
-                    flexWrap: 'wrap',
-                    justifyContent: 'center',
-                    typography: 'body1',
-                    ml: 5,
-                    mt:16, }}>
+           
+            {memo.map((memory,index)=> (
+                <>
+                    <Box sx={{}}>         
+                    {/* <p>index   ====  {index}</p>
+                    <p>memoryPessoa  === {memory.categoryPessoa}</p>
+                    <p>memoryFamilia  === {memory.categoryFamilia}</p>
+                    <p>memoryPessoa  === {memory.categoryLocal}</p>
+                    <p>memoryPessoa  === {memory.categoryEvento}</p> */}
+                    <Grid container mt={1}>
+                        <Grid item xs={12}>
+                            <Paper elevation={10}>
+                            <img key={index}src={URL.createObjectURL(memory.photo)}
+                            alt="" style={{width:"100%",}}/>
+                            </Paper>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Paper  elevation={3}>
+                                <Typography variant='h5'mb={2}pl={5}ml={1} pt={1} align='left'>
+                                Qual é o Nome dessa Pessoa ?
+                                </Typography>
+                                <FormControl>
+                                    <FormLabel id="demo-controlled-radio-buttons-group">
+                                        <strong>Memória Pessoa</strong></FormLabel>
+                                        <RadioGroup
+                                        aria-labelledby="demo-controlled-radio-buttons-group"
+                                        name="controlled-radio-buttons-group"
+                                        value={value}                                   
+                                        >
+                                        <FormControlLabel value={memory.categoryPessoa} control={<Radio />}
+                                        label={memory.categoryPessoa} />
+                                        <FormControlLabel value="Carlos" control={<Radio />} label="Carlos" />
+                                        <FormControlLabel value="Sabrina" control={<Radio />} label="Sabrina" />
+                                        </RadioGroup>
+                                </FormControl>
+                            </Paper>
+                            <Paper>
+                            <Typography variant='h5'mb={2}pl={5}ml={1} pt={1} align='left'>
+                                Qual seu Parentesco com ela ?
+                                </Typography>
+                                <FormControl>
+                                    <FormLabel id="demo-controlled-radio-buttons-group">Memória Família</FormLabel>
+                                        <RadioGroup
+                                        aria-labelledby="demo-controlled-radio-buttons-group"
+                                        name="controlled-radio-buttons-group"
+                                        value={value}                                    
+                                        >
+                                        <FormControlLabel value="Pai" control={<Radio />} label="Pai" />
+                                        <FormControlLabel value="Mãe" control={<Radio />} label="Mãe" />
+                                        </RadioGroup>
+                                </FormControl>
+                            </Paper>
+                            <Paper>
+                            <Typography variant='h5'mb={2}pl={5}ml={1} pt={1} align='left'>
+                                Onde fica esse Local ?
+                                </Typography>
+                                <FormControl>
+                                    <FormLabel id="demo-controlled-radio-buttons-group">Memória Local</FormLabel>
+                                        <RadioGroup
+                                        aria-labelledby="demo-controlled-radio-buttons-group"
+                                        name="controlled-radio-buttons-group"
+                                        value={value}                                    
+                                        >
+                                        <FormControlLabel value="Recife" control={<Radio />} label="Recife" />
+                                        <FormControlLabel value="São Paulo" control={<Radio />} label="São Paulo" />
+                                        </RadioGroup>
+                                </FormControl>
+                            </Paper>
+                            <Paper>
+                            <Typography variant='h5'mb={2}pl={5}ml={1} pt={1} align='left'>
+                                Qual é esse Evento ?
+                                </Typography>
+                                <FormControl>
+                                    <FormLabel id="demo-controlled-radio-buttons-group">Memória Evento</FormLabel>
+                                        <RadioGroup
+                                        aria-labelledby="demo-controlled-radio-buttons-group"
+                                        name="controlled-radio-buttons-group"
+                                        value={value}                                    
+                                        >
+                                        <FormControlLabel value="Casamento" control={<Radio />} label="Casamento" />
+                                        <FormControlLabel value="Nascimento" control={<Radio />} label="Nascimento" />
+                                        </RadioGroup>
+                                </FormControl>
+                            </Paper>
 
-                <Grid container mt={5}>
-                    <Grid item xs={12}mb={3} mr={5}>
-                        <Paper elevation={10}>
-                          Foto
-                        </Paper>
+
+                          
+                        </Grid>
                     </Grid>
-                    <Grid item xs={12}>
-
-                    <FormControl>
-                        <FormLabel id="demo-controlled-radio-buttons-group">Memória</FormLabel>
-                        <RadioGroup
-                        aria-labelledby="demo-controlled-radio-buttons-group"
-                        name="controlled-radio-buttons-group"
-                        value={value}
-                    
-                        >
-                        <FormControlLabel value="female" control={<Radio />} label="Female" />
-                        <FormControlLabel value="male" control={<Radio />} label="Male" />
-                        </RadioGroup>
-                    </FormControl>
-                      
-
-                    </Grid>
-
-
-                </Grid>
-
-              
-
-
-
-
-
-                <Grid item xs={2}spacing={5}mr={5}>
-                    <Link to="/">Home</Link>
-                </Grid> 
-                <Grid item xs={2}spacing={5} mr={5}>
-                    <Link to="/register">Registro</Link>
-                </Grid>
-                <Grid item xs={2}spacing={5} mr={5}>
-                    <Link to="/login">Entrar</Link>
-                </Grid>
-                {/* <Grid item xs={2}spacing={5} mr={5}>
-                    <Link to="/profile">Profile</Link>
-                </Grid> */}
-                <Grid item xs={2}spacing={5} mr={5}>
-                    <Link to="/addimage">AddImage</Link>
-                </Grid>
-            </Box>
+                    </Box>                
+                </>                                             
+                          
+                ))}        
+        
+            <Box sx={{display:'flex',justifyContent:'space-evenly'}}>   
+               
+                <Button variant='outlined'mr={5}><Link to="/">Home</Link></Button>
+                <Button variant='outlined'><Link to="/register">Registro</Link></Button>
+                <Button variant='outlined'><Link to="/login">Entrar</Link></Button>
+                <Button variant='outlined'><Link to="/addimage">AddImage</Link></Button>
+            
+            </Box>  
+         </Container> 
         </>
     )
 }

@@ -235,8 +235,9 @@ export function AddImage (){
                                     </Paper>
                                 </Grid>
                                 </Grid>
+                     
 
-                        {memo.map((memory,index)=> (
+                        {/* {memo.map((memory,index)=> (
                         <>
                          <p>index   ====  {index}</p>
                         <p>memoryPessoa  === {memory.categoryPessoa}</p>
@@ -247,35 +248,22 @@ export function AddImage (){
                                         alt="" style={{width:"100%",}}/>
                         
                       </> ))}
-                
+                 */}
                         </>))}
+            
+                <Box sx={{display:'flex',justifyContent:'space-evenly'}}>   
 
-                       
-                            <Box sx={{
-                                display: 'flex',
-                                flexWrap: 'wrap',
-                                justifyContent: 'center',
-                                typography: 'body1',
-                                 ml: 5,
-                                 mt:16,                               
-                            }}>
+                    <Button variant='outlined'mr={5}><Link to="/">Home</Link></Button>
+                    <Button variant='outlined'><Link to="/register">Registro</Link></Button>
+                    <Button variant='outlined'><Link to="/login">Entrar</Link></Button>
+                    <Button variant='outlined'><Link to="/play">Jogar</Link></Button>
+                    <Button variant='outlined'><Link to="/resume">Suas Atividades</Link></Button>
+                    <Button variant='outlined'><Link to="/play">Sair</Link></Button>
+                
+                </Box>  
 
-                            <Grid item xs={2}spacing={5}mr={5}>
-                                <Link to="/">Home</Link>
-                            </Grid> 
-                            <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/play">Jogar</Link>
-                            </Grid>
-                            <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/resume">Suas Atividades</Link>
-                            </Grid>
-                            {/* <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/profile">Profile</Link>
-                            </Grid> */}
-                            <Grid item xs={2}spacing={5} mr={5}>
-                                <Link to="/play">Sair</Link>
-                            </Grid>
-                            </Box>
+                  
+                        
                        
              </Container>
          </>
