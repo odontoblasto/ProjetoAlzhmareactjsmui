@@ -11,14 +11,16 @@ import { Container} from '@mui/system';
 
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import CardContext from '../contexts/CardContext';
+import {MemoryContext} from '../contexts/MemoryContext';
 
 
 
 
 export function AddImage (){
 
-    const {memo} = useContext(CardContext)
+    const {memo,setMemo} = useContext(MemoryContext)
+
+    const {categoryPessoa}= memo
 
     const [cards,setCards] = useState([])
 
@@ -32,7 +34,11 @@ export function AddImage (){
         },
         onSubmit: (values,{resetForm})=>{
             setCards([...cards,values])
-        resetForm(values = '')}        
+            // resetForm(values = '')
+            
+            setMemo([...memo,values])
+            console.log("cards",cards)
+            console.log("memo",memo)}        
     })
 
     // function getMemory(index){
@@ -54,7 +60,11 @@ export function AddImage (){
 
                 <Typography align='left' variant="h3" component="div" mb={3}pt={5}>
                 Adicione sua Memória
-                </Typography> 
+                </Typography>
+                 {/* <p>memo  === {memo.categoryPessoa}</p>
+                        <p>memo  === {memo.categoryFamilia}</p>
+                        <p>memo  === {memo.categoryLocal}</p>
+                        <p>memo  === {memo.categoryEvento}</p>  */} 
 
                 <form onSubmit={formik.handleSubmit} encType="multipart/form-data">
                        
@@ -225,17 +235,18 @@ export function AddImage (){
                                     </Paper>
                                 </Grid>
                                 </Grid>
-                     
-                        {/* <p>index   ====  {index}</p>
+
+                        {memo.map((memory,index)=> (
+                        <>
+                         <p>index   ====  {index}</p>
                         <p>memoryPessoa  === {memory.categoryPessoa}</p>
-                        <p>memoryFamilia  === {memory.categoryFamilia}</p>
+                       <p>memoryFamilia  === {memory.categoryFamilia}</p>
                         <p>memoryPessoa  === {memory.categoryLocal}</p>
                         <p>memoryPessoa  === {memory.categoryEvento}</p>
-                        <p>memoryPhoto  === {memory.photo.name}</p>
-                        <p>memo  === {memo.categoryPessoa}</p>
-                        <p>memo  === {memo.categoryFamilia}</p>
-                        <p>memo  === {memo.categoryLocal}</p>
-                        <p>memo  === {memo.categoryEvento}</p> */}
+                        <img key={index}src={URL.createObjectURL(memory.photo)}
+                                        alt="" style={{width:"100%",}}/>
+                        
+                      </> ))}
                 
                         </>))}
 

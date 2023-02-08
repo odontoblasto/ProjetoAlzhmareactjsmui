@@ -7,7 +7,7 @@ import { Resume } from './components/Resume'
 import {Register} from './components/Register'
 import {Login} from './components/Login'
 
-import CardContext from './contexts/CardContext'
+import { MemoryProvider,MemoryContext} from './contexts/MemoryContext'
 
 import { Route, Routes } from "react-router-dom"
 
@@ -23,28 +23,25 @@ function App() {
       <Link to="/profile">Profile</Link>
       <Link to="/addimage">AddImage</Link> */}
 
-      <CardContext.Provider value={{memo:{
-       categoryPessoa: 'teste',
-       categoryFamilia: 'teste1',
-       categoryLocal: 'teste2',
-       categoryEvento: 'teste3',
-       photo: '',
-     }}}>
-
+    
+      <MemoryProvider>
         <Routes>
-
           <Route path="/" element={<Home />} />
-          {/* <Route path="/profile" element={<Profile />} />
-          <Route path="/addcard" element={<AddCard />} /> */}
-          <Route path="/addimage" element={<AddImage />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login/>} />
+     
+        
+          <Route path="/addimage" element={<AddImage />} />
           <Route path="/play" element={<Play/>} />
+      
+        
           <Route path="/resume" element={<Resume/>} />
-
         </Routes>
+      </MemoryProvider>
+      
+       
 
-      </CardContext.Provider>
+   
   
  
     </>
