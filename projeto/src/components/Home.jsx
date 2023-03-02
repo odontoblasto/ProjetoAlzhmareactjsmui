@@ -31,12 +31,13 @@ export function Home(){
                     <Typography variant="body2"
                     color="text.secondary">
                     <strong>
-                    " Se me obrigassem a dizer por que o amava,
-                    sinto que a minha única resposta seria: Porque era ele, Porque era eu."
+                    " Se me obrigassem a dizer o porquê a amava,
+                    sinto que a minha única resposta seria: Porque era Ela, Porque era Eu."
                     - adaptado de Michel de Montaigne</strong>
                     </Typography>
 
                 </CardContent>
+                </Card>  
 
             
                 <Box sx={{display:'flex',justifyContent:'space-evenly'}}>   
@@ -52,7 +53,7 @@ export function Home(){
                 </Box>  
                 
 
-            </Card>    
+           
         </>
 
     )

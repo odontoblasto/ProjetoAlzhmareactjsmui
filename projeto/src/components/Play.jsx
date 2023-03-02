@@ -11,17 +11,16 @@ export function Play(){
 
     function handleChangeRadio(e){
         console.log(e)
-        
+      
     }
   
      return(
         <>
          <Container> 
-            <Typography align='left' variant="h3" component="div" mb={3}pt={5}>
+            <Typography align='left' variant="h3" component="div" mb={1}pt={1}>
             Teste Sua Memória
             </Typography> 
 
-           
             {memo.map((memory,index)=> (
                 <>
                     <Box sx={{}}>         
@@ -30,11 +29,11 @@ export function Play(){
                     <p>memoryFamilia  === {memory.categoryFamilia}</p>
                     <p>memoryPessoa  === {memory.categoryLocal}</p>
                     <p>memoryPessoa  === {memory.categoryEvento}</p> */}
-                    <Grid container mt={1}>
+                    <Grid container mt={1} mb={5}>
                         <Grid item xs={12}>
                             <Paper elevation={10}>
                             <img key={index}src={URL.createObjectURL(memory.photo)}
-                            alt="" style={{width:"100%",}}/>
+                            alt="" style={{width:"100%"}}/>
                             </Paper>
                         </Grid>
                         <Grid item xs={12}>
@@ -121,6 +120,7 @@ export function Play(){
                 <Button variant='outlined'><Link to="/register">Registro</Link></Button>
                 <Button variant='outlined'><Link to="/login">Entrar</Link></Button>
                 <Button variant='outlined'><Link to="/addimage">AddImage</Link></Button>
+                <Button variant='outlined'><Link to="/resume">Suas Atividades</Link></Button>
             
             </Box>  
          </Container> 

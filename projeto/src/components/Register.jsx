@@ -1,12 +1,41 @@
-import {Box,Button} from "@mui/material"
+import {Box,Button,Paper,Typography} from "@mui/material"
 import { Link } from "react-router-dom"
+import foto from '../assets/images/Logo.png'
 
 export function Register (){
 
     return(
-        <>
-        <h1>Registro</h1>
-        <h2> Under Construction </h2>
+        <>      
+
+        <Box sx={{display:'flex',justifyContent:'space-between',height:'550px'}}>
+        
+            <img src={foto} alt="" style={{width:'100%'}} />               
+          
+            <Paper elevation={3}  sx={{width:'45%',height:'450px',mt:'1.5rem'}}>
+                <Typography variant="h3"mt={5}>
+                    Registro
+                </Typography>
+                <Typography variant="h4"align="left">
+                    Nome : 
+                </Typography>
+                <Typography variant="h4"align="left">
+                    Senha : 
+                </Typography>
+                <Button variant="contained"> Registrar</Button>  
+                <hr />
+                <Typography variant="h3"mt={5}>
+                    Entrar
+                </Typography>
+                <Typography variant="h4"align="left">
+                    Nome : 
+                </Typography>
+                <Typography variant="h4"align="left">
+                    Senha : 
+                </Typography>
+                <Button variant="contained"> Entrar</Button>
+            </Paper>    
+        </Box>
+
         <Box sx={{display:'flex',justifyContent:'space-evenly'}}>   
 
             <Button variant='outlined'mr={5}><Link to="/">Home</Link></Button>

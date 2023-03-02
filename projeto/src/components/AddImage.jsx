@@ -59,7 +59,7 @@ export function AddImage (){
             <Container>         
 
                 <Typography align='left' variant="h3" component="div" mb={3}pt={5}>
-                Adicione sua Memória
+                Adicione sua Memória - LOGO
                 </Typography>
                  {/* <p>memo  === {memo.categoryPessoa}</p>
                         <p>memo  === {memo.categoryFamilia}</p>
