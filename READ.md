@@ -1,3 +1,4 @@
+
 Big Idea- Engenharia Software - classcraft
 Partindo de uma experiência pessoal, concordamos que poderíamos criar um software
 que estimule a capacidade cognitiva de pessoas acometidas por Alzheimer.
