@@ -22,13 +22,17 @@ Que questão essencial você propõe para o projeto?
 Hipótese :
 
 Verificar se a estimulação cognitiva digital guiada concorre para a melhoria do quadro clínico apresentado pelo paciente acometido pelo Alzheimer, ou seja, por meio da métrica categorizada em pessoas, família, local e evento, se há melhoria nos scores das partidas do 'Jogo da Memória'.
-Para a 1° Fase do Projeto, vislumbramos que a acessibilidade seja fundamental, pois estamos tentando integrar pessoas que além das dificuldades cognitivas, também podem apresentar, perda da acuidade visual e motora.
-Além disso, a aquisição das informações para a criação das memórias (imagens e músicas) é crítica e, possivelmente, será feita por pessoas leigas.Por isso, o design da interface deve ser minimalista e de fácil entendimento. 
+
+Para a 1° Fase do Projeto, vislumbramos que a aquisição das informações para a criação das memórias (imagens e músicas) é crítica e, possivelmente, será feita por pessoas leigas.Portanto, o design da interface deve ser minimalista e de fácil entendimento. 
 
 Challenge -
 
 Como você transforma a essential question e a big idea em um desafio similar a uma chamada para a ação?
 
-Desafio: Como promover uma melhor qualidade de vida para pessoas com alzheimer, através de estimulos para sua memória e facilitar convivio de pessoas próximas com essa.
+Como promover uma melhor qualidade de vida para pessoas com alzheimer, através de estimulos cognitivos digitais para sua memória e facilitar convivio de pessoas próximas com essa.
 
 O ponto principal se voltou para a criação de aplicação com atividades que ajudariam no retardamento do processo da doença, trazendo exercícios de memória e estímulos auditivos e visuais como aliados.
+
+Guiding Questions -
+
+Que questões norteadoras você propõe para explorar e aprender mais sobre o desafio?
