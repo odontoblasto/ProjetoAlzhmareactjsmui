@@ -21,9 +21,7 @@ Que questão essencial você propõe para o projeto?
 
 Hipótese :
 
-Verificar se a estimulação cognitiva digital guiada concorre para a melhoria do quadro clínico apresentado pelo paciente acometido pelo Alzheimer, ou seja, por meio da métrica categorizada em pessoas, família, local e evento, se há melhoria nos scores das partidas do 'Jogo da Memória'.
-
-Para a 1° Fase do Projeto, vislumbramos que a aquisição das informações para a criação das memórias (imagens e músicas) é crítica e, possivelmente, será feita por pessoas leigas.Portanto, o design da interface deve ser minimalista e de fácil entendimento. 
+Verificar se a estimulação cognitiva digital guiada concorre para a melhoria do quadro clínico apresentado pelo paciente acometido pelo Alzheimer, ou seja, por meio da métrica categorizada em pessoas, família, local e evento, se há melhoria nos scores das partidas do 'Jogo da Memória'. 
 
 Challenge -
 
@@ -45,6 +43,8 @@ Guiding Activities -
 
 Quais atividades e recursos norteadores você sugere para responder às questões norteadoras?
 
+Para a 1° Fase do Projeto, vislumbramos que a aquisição das informações para a criação das memórias (imagens e músicas) é crítica e, possivelmente, será feita por pessoas leigas.Portanto, o design da interface deve ser minimalista e de fácil entendimento.
+
 Analisys -
 
 Quais os fundamentos que você aprendeu que nortearão as hipóteses de solução?
@@ -53,6 +53,12 @@ Solution -
 
 Que solução você sugere para ser desenvolvida?
 
+Sugerimos a criação de um MVP que verifique se a Estimulação Cognitiva Digital Guiada Personalizada pode estabilizar ou melhorar a cognição de pessoas acometidas por Alzheimer.Nada mais é do que um 'Jogo de Memórias' que serão mapeados pelo score obtido e pela data das partidas, com o auxílio de imagens e músicas pessoais.
+
+
+
 Implementation -
 
-Que solução você sugere para ser desenvolvida?
+Como você testará a solução no mundo real?
+
+Por se tratar de Saúde, temos que após a finalização do MVP, apresentar nosso modelo para os profissionais da saúde responsáveis pelo manejo desses pacientes como,a Medicina,a Psicologia, a Terapia Ocupacional.Esperamos que com a  orientação desses profissionais, possamos adequar esse modelo proposto e realizar os estudos científicos necessários.
