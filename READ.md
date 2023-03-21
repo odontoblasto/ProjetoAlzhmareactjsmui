@@ -29,10 +29,14 @@ Challenge -
 
 Como você transforma a essential question e a big idea em um desafio similar a uma chamada para a ação?
 
-Como promover uma melhor qualidade de vida para pessoas com alzheimer, através de estimulos cognitivos digitais para sua memória e facilitar convivio de pessoas próximas com essa.
 
-O ponto principal se voltou para a criação de aplicação com atividades que ajudariam no retardamento do processo da doença, trazendo exercícios de memória e estímulos auditivos e visuais como aliados.
+
 
 Guiding Questions -
 
 Que questões norteadoras você propõe para explorar e aprender mais sobre o desafio?
+
+Como promover a estimulação cognitiva de pessoas acometidas com Alzheimer,e facilitar seu entendimento da realidade ?
+Essa estimulação concorre para a melhoria ou estabilização do quadro clínico ?
+Essas métricas auxiliam na verificação do quadro clínico ?
+Essa estimulação é prazerosa ao paciente ?
