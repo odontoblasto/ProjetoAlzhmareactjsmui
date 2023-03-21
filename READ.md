@@ -40,3 +40,19 @@ Como promover a estimulação cognitiva de pessoas acometidas com Alzheimer,e fa
 Essa estimulação concorre para a melhoria ou estabilização do quadro clínico ?
 Essas métricas auxiliam na verificação do quadro clínico ?
 Essa estimulação é prazerosa ao paciente ?
+
+Guiding Activities -
+
+Quais atividades e recursos norteadores você sugere para responder às questões norteadoras?
+
+Analisys -
+
+Quais os fundamentos que você aprendeu que nortearão as hipóteses de solução?
+
+Solution -
+
+Que solução você sugere para ser desenvolvida?
+
+Implementation -
+
+Que solução você sugere para ser desenvolvida?
