@@ -45,7 +45,7 @@ Solution -
 
 Que solução você sugere para ser desenvolvida?
 
-Sugerimos a criação de um MVP que verifique se a Estimulação Cognitiva Digital Guiada Personalizada pode estabilizar ou melhorar a cognição de pessoas acometidas por Alzheimer.Nada mais é do que  'Jogo de Memórias' que serão mapeados pelo score obtido e pela data das partidas, com o auxílio de imagens e músicas pessoais.
+Sugerimos a criação de um MVP que verifique se a Estimulação Cognitiva Digital Guiada Personalizada pode estabilizar ou melhorar a cognição de pessoas acometidas por Alzheimer.Nada mais são do que  'Jogo de Memórias' que serão mapeados pelo score obtido e pela data das partidas, com o auxílio de imagens e músicas pessoais.
 
 Implementation -
 
