@@ -11,6 +11,8 @@ Essention Question -
 
 Que questão essencial você propõe para o projeto?
 
+A questão essencial é a eficácia do produto em estimular e exercitar as habilidades cognitivas das pessoas com a doença. O Alzheimer é uma doença neurodegenerativa que afeta principalmente a memória, alguns dos fatores importantes para o jogo são o nível de dificuldade que deverão ser ajustados de acordo com o nível do acometido, as imagens reconhecíveis, design amigável e simples, trazendo motivação e incentivando seu uso.
+
 Hipótese :
 
 Verificar se a estimulação cognitiva digital guiada concorre para a melhoria do quadro clínico apresentado pelo paciente acometido pelo Alzheimer, ou seja, por meio da métrica categorizada em pessoas, família, local e evento, se há melhoria nos scores das partidas do 'Jogo da Memória'.
@@ -18,6 +20,8 @@ Verificar se a estimulação cognitiva digital guiada concorre para a melhoria d
 Challenge -
 
 Como você transforma a essential question e a big idea em um desafio similar a uma chamada para a ação?
+
+Desenvolver um jogo de memória inovador que incorpore estímulos visuais e auditivos para pessoas com Alzheimer. O jogo deve ser projetado para ser desafiador e agradável, enquanto estimula a memória e outras habilidades cognitivas. O objetivo é criar uma ferramenta útil e eficaz que possa ajudar a retardar o progresso do Alzheimer e melhorar a qualidade de vida das pessoas afetadas pela doença
 
 Guiding Questions -
 
@@ -35,11 +39,13 @@ Analisys -
 
 Quais os fundamentos que você aprendeu que nortearão as hipóteses de solução?
 
+Utilização de vários sentidos, audição, estímulos visuais e cognitivos, necessidade de design simples e intuitivo, personalização do jogo, com imagens escolhidas por usuários, monitoramento de resultados e variedade de níveis para atender o maior número de pessoas.
+
 Solution -
 
 Que solução você sugere para ser desenvolvida?
 
-Sugerimos a criação de um MVP que verifique se a Estimulação Cognitiva Digital Guiada Personalizada pode estabilizar ou melhorar a cognição de pessoas acometidas por Alzheimer.Nada mais é do que um 'Jogo de Memórias' que serão mapeados pelo score obtido e pela data das partidas, com o auxílio de imagens e músicas pessoais.
+Sugerimos a criação de um MVP que verifique se a Estimulação Cognitiva Digital Guiada Personalizada pode estabilizar ou melhorar a cognição de pessoas acometidas por Alzheimer.Nada mais é do que  'Jogo de Memórias' que serão mapeados pelo score obtido e pela data das partidas, com o auxílio de imagens e músicas pessoais.
 
 Implementation -
 
