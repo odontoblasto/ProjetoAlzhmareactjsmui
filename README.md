@@ -53,6 +53,7 @@ Implementation -
 Como você testará a solução no mundo real?
 
 Por se tratar de Saúde, temos que após a finalização do MVP, apresentar nosso modelo para os profissionais da saúde responsáveis pelo manejo desses pacientes como,a Medicina,a Psicologia, a Terapia Ocupacional.Esperamos que com a orientação desses profissionais, possamos adequar esse modelo proposto e realizar os estudos científicos necessários.
+<br/><br/>
 ____Alzhma2.0___
 
-<a href="https://www.w3schools.com">Alzhma2.0</a>
+<a href="https://github.com/odontoblasto/Alzhma2.0">Alzhma2.0</a>
