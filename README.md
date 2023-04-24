@@ -123,3 +123,4 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 * https://www.youtube.com/watch?v=p1bjHvX-DqM&t=1293s ( Teste Jest tutorial )
 * https://www.youtube.com/watch?v=9bXhf_TELP4&t=1044s ( Auth Firebase )
 * https://www.youtube.com/watch?v=2hR-uWjBAgw&t=5320s ( Deploy Firebase )
+* https://www.portal.ufpa.br/index.php/ultimas-noticias2/9545-aplicativo-desenvolvido-na-ufpa-ajuda-no-tratamento-de-alzheimer-em-idosos ( App Alzheimer UFPA )
