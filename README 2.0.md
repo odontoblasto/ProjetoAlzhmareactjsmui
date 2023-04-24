@@ -36,7 +36,7 @@ Essa contribuição definirá quais métricas e "features" avançadas devem ser 
 
 * No início do projeto, utilizamos Python na construção de um Mock-Up. Essa etapa, permitiu a visualização de quais "caminhos" e estruturas de dados deveriam ser utilizadas - Array,Dict, Objects - já que só conhecíamos Python. 
 * https://github.com/odontoblasto/ProjetoAlzhmareactjsmui/tree/main/projeto/python
-* 
+
 ## MVP - visão geral
 
 * Decidimos utilizar o protocolo MERN - MongoDB, Express, ReactJS e Node.Js.
