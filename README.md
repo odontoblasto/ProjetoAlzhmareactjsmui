@@ -1,4 +1,4 @@
-# ProjetoAlzhma 1.0
+#  Projeto Alzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
 
 # The Alzhma Project 2.0 
@@ -115,4 +115,11 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 
 ## Referências utilizadas na elaboração do projeto
-* https://github.com/IF977/if977 (Repositório da cadeira de Engenharia de Software)
+
+* https://github.com/IF977/if977 ( Repositório da cadeira de Engenharia de Software )
+* https://www.youtube.com/watch?v=MpQbwtSiZ7E ( MERN Protocol )
+* https://www.youtube.com/watch?v=x9tC0eK0GtA ( MongoDB Atlas )
+* https://www.youtube.com/watch?v=bMknfKXIFA8 ( React JS tutorial )
+* https://www.youtube.com/watch?v=p1bjHvX-DqM&t=1293s ( Teste Jest tutorial )
+* https://www.youtube.com/watch?v=9bXhf_TELP4&t=1044s ( Auth Firebase )
+* https://www.youtube.com/watch?v=2hR-uWjBAgw&t=5320s ( Deploy Firebase )
