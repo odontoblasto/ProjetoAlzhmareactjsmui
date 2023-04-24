@@ -4,6 +4,9 @@
 # The Alzhma Project 2.0 
 <img src="Alzhma-2.0/screenshots/bgBlackOK.png"/>
 
+## Código-Fonte versão 2.0 -
+https://github.com/odontoblasto/Alzhma2.0
+
 ## Membros
 * Carlos Eduardo D.F. de Vasconcellos (cedfv)
 * Pedro Henrique Medeiros (phmfl)
