@@ -4,7 +4,8 @@
 # The Alzhma Project 2.0 
 <img src="Alzhma-2.0/screenshots/bgBlackOK.png"/>
 
-## Código-Fonte versão 2.0 -
+## Código Fonte versão 2.0 -
+* P.S: com o intuito de evitar confusão, decidimos dividir os códigos fontes das 2 versões em repositórios separados.
 https://github.com/odontoblasto/Alzhma2.0
 
 ## Membros
