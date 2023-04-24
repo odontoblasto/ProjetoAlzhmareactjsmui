@@ -1,7 +1,9 @@
 <img src='projeto/src/assets/images/logoS.png'>
 
 * código fonte da versão 2.0 - https://github.com/odontoblasto/Alzhma2.0
-# ProjetoAlzhma
+* 
+# Projeto Alzhma 1.0 
+
 Engenharia Software - CBL
 
 Big Idea -
@@ -56,6 +58,73 @@ Como você testará a solução no mundo real?
 
 Por se tratar de Saúde, temos que após a finalização do MVP, apresentar nosso modelo para os profissionais da saúde responsáveis pelo manejo desses pacientes como,a Medicina,a Psicologia, a Terapia Ocupacional.Esperamos que com a orientação desses profissionais, possamos adequar esse modelo proposto e realizar os estudos científicos necessários.
 <br/><br/>
-____Alzhma2.0___
 
+
+
+# Projeto Alzhma 2.0 
+
+* código fonte versão 2.0 -
 <a href="https://github.com/odontoblasto/Alzhma2.0">Alzhma2.0</a>
+
+Engenharia Software - CBL 
+
+# Revisão do CBL após 1° Reunião de Alinhamento
+
+## Big Idea -
+
+### Que Big Idea você propõe para o projeto?
+
+* Criação de MVP que promova a estilumação cognitiva guiada digital de pessoas acometidas com a Doença de Alzheimer , por meio de atividades lúdicas.
+* 
+## Essention Question -
+
+### Que questão essencial você propõe para o projeto?
+
+* A questão essencial é a eficácia do produto em estimular e exercitar as habilidades cognitivas das pessoas com a doença.
+*  O Alzheimer é uma doença neurodegenerativa que afeta principalmente a memória. Pretendemos criar uma plataforma digital lúdica que permita a individualização para cada paciente.
+
+## Hipótese :
+
+* Verificar se a estimulação cognitiva digital guiada customizada concorre para a melhoria do quadro clínico apresentado pelo paciente acometido pelo Alzheimer.
+
+## Challenge -
+
+### Como você transforma a essential question e a big idea em um desafio similar a uma chamada para a ação?
+
+* Desenvolver uma plataforma digital inovadora que incorpore estímulos visuais e auditivos para pessoas com Alzheimer.
+* A aplicação lúdica deve ser projetada para ser desafiadora e agradável, enquanto estimula a memória e outras habilidades cognitivas.
+*  O objetivo é criar uma ferramenta útil e eficaz que possa ajudar a retardar o progresso do Alzheimer e melhorar a qualidade de vida das pessoas afetadas pela doença.
+
+## Guiding Questions -
+
+### Que questões norteadoras você propõe para explorar e aprender mais sobre o desafio?
+
+* Como promover a estimulação cognitiva de pessoas acometidas com Alzheimer, e facilitar seu entendimento da realidade ?
+*  Essa estimulação concorre para a melhoria ou estabilização do quadro clínico ?
+*  * Essa estimulação é prazerosa ao paciente ?
+
+## Guiding Activities -
+
+### Quais atividades e recursos norteadores você sugere para responder às questões norteadoras?
+
+* Para a 2° Fase do Projeto, vislumbramos a criação de um "backbone" que possibilita a criação de "features" necessárias para a estimulação cognitiva dos pacientes, perguntas e respotas customizadas. 
+
+## Analisys -
+
+### Quais os fundamentos que você aprendeu que nortearão as hipóteses de solução?
+
+Utilização de vários sentidos, audição, estímulos visuais e cognitivos, necessidade de design simples e intuitivo, personalização da aplicação, com perguntas e respotas escolhidas pelos usuários, monitoramento de resultados para avaliar o progresso do quadro clínico.
+
+## Solution -
+
+### Que solução você sugere para ser desenvolvida?
+
+* Sugerimos a criação de um MVP que verifique se a Estimulação Cognitiva Digital Guiada Personalizada pode estabilizar ou melhorar a cognição de pessoas acometidas por Alzheimer, pór meio da customização de Perguntas e Respostas de forma lúdica.
+
+## Implementation -
+
+### Como você testará a solução no mundo real?
+
+* Por se tratar de Saúde, temos que após a finalização do MVP, apresentar nosso modelo para os profissionais da saúde responsáveis pelo manejo desses pacientes como,a Medicina,a Psicologia, a Terapia Ocupacional.Esperamos que com a orientação desses profissionais, possamos adequar esse modelo proposto e realizar os estudos científicos necessários.
+
+<br/><br/>
