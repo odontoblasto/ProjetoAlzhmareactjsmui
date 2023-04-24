@@ -1,4 +1,5 @@
 # ProjetoAlzhmareactjsmui
+<img src="projeto/src/assets/images/logoS.png"/>
 
 # The Alzhma Project 2.0 
 
