@@ -1,4 +1,6 @@
 <img src='projeto/src/assets/images/logoS.png'>
+
+* versão 2.0 - https://github.com/odontoblasto/Alzhma2.0
 # ProjetoAlzhma
 Engenharia Software - CBL
 
