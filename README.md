@@ -5,7 +5,7 @@
 <img src="Alzhma-2.0/screenshots/bgBlackOK.png"/>
 
 ## Membros
-* Carlos Eduardo D.F de Vasconcellos (cedfv)
+* Carlos Eduardo D.F. de Vasconcellos (cedfv)
 * Pedro Henrique Medeiros (phmfl)
 * Leonardo Bezerra de Oliveira (lbo)
 
