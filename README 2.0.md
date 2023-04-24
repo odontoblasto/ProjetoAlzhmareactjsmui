@@ -1,4 +1,4 @@
-<img src="./bgBlackOk.png"/>
+<img src="../bgBlackOk.png"/>
 # The Alzhma Project 2.0 
 
 ## Membros
