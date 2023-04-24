@@ -64,6 +64,10 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 * Como BD, foi utilizado MongoDb Atlas pela familiaridade do aluno Pedro, DBA do projeto. Fomentamos a possibilidade de mudança para FireStoreDataBase, porém por medo de "Bug" no última etapa, adiamos esse debate para a versão 3.0. 
 
+#### Modelo ER - Alzhma 2.0
+
+<img src="Alzhma-2.0/screenshots/Modelo ER-Alzhma2.0.jpg"/>
+
 ### Ferramentas utilizadas no Projeto
 * Javascript
 * React JS
