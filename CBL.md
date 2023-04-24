@@ -75,7 +75,7 @@ Engenharia Software - CBL
 ### Que Big Idea você propõe para o projeto?
 
 * Criação de MVP que promova a estilumação cognitiva guiada digital de pessoas acometidas com a Doença de Alzheimer , por meio de atividades lúdicas.
-* 
+
 ## Essention Question -
 
 ### Que questão essencial você propõe para o projeto?
@@ -113,7 +113,7 @@ Engenharia Software - CBL
 
 ### Quais os fundamentos que você aprendeu que nortearão as hipóteses de solução?
 
-Utilização de vários sentidos, audição, estímulos visuais e cognitivos, necessidade de design simples e intuitivo, personalização da aplicação, com perguntas e respotas escolhidas pelos usuários, monitoramento de resultados para avaliar o progresso do quadro clínico.
+* Utilização de vários sentidos, audição, estímulos visuais e cognitivos, necessidade de design simples e intuitivo, personalização da aplicação, com perguntas e respotas escolhidas pelos usuários, monitoramento de resultados para avaliar o progresso do quadro clínico.
 
 ## Solution -
 
