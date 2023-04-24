@@ -1,7 +1,8 @@
-# ProjetoAlzhmareactjsmui
+# ProjetoAlzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
 
 # The Alzhma Project 2.0 
+<img src="Alzhma-2.0/screenshots/bgBlackOK.png"/>
 
 ## Membros
 * Carlos Eduardo D.F de Vasconcellos (cedfv)
