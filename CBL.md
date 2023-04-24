@@ -101,7 +101,7 @@ Engenharia Software - CBL
 
 * Como promover a estimulação cognitiva de pessoas acometidas com Alzheimer, e facilitar seu entendimento da realidade ?
 *  Essa estimulação concorre para a melhoria ou estabilização do quadro clínico ?
-*  * Essa estimulação é prazerosa ao paciente ?
+* Essa estimulação é prazerosa ao paciente ?
 
 ## Guiding Activities -
 
