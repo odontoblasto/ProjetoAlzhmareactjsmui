@@ -81,13 +81,21 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 ## Screenshots
 ### Página Inicial
-![[pagina_inicial]]
+<img src="Alzhma-2.0/screenshots/Home Page.png"/>
 ### Página de Login
-![[pagina_inicial]]
-### Página de Criação de Perguntas e Respostas 
-![[pagina_inicial]]
+<img src="Alzhma-2.0/screenshots/Login Page.png"/>
+### Página de Criação de Perguntas e Resposta
+<img src="Alzhma-2.0/screenshots/Create Page.png"/>
 ### Página do Quiz
-![[pagina_inicial]]
+<img src="Alzhma-2.0/screenshots/Quiz Page.png"/>
+### Página do Quiz Update Question or Answer- Modal
+<img src="Alzhma-2.0/screenshots/Quiz Page - UpDate.png"/>
+### Página do Auth Google FireBase
+<img src="Alzhma-2.0/screenshots/Auth Page - FireBase.png"/>
+### Página do Backend
+<img src="Alzhma-2.0/screenshots/BackEnd.png"/>
+### Página do MongoDb Atlas
+<img src="Alzhma-2.0/screenshots/MongoDB Atlas.png"/>
 
 
 ## Referências utilizadas na elaboração do projeto
