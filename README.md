@@ -58,7 +58,7 @@ vídeo do App - https://www.youtube.com/watch?v=AmbYciU_m30
 * Término Front-End com Autenticação Firebase/Google - concluído
 * Término da integração front/Back/BD - concluído
 * Listas as atividades previstas indicando o responsável
-* Realizar testes com GitHub Co-Pilot - [ Carlos, Leonardo, Pedro]-em execução
+* Realizar testes com GitHub Co-Pilot - [ Carlos, Leonardo, Pedro] - em execução
 * Deploy da aplicação;(Carlos) - a fazer
 
 
