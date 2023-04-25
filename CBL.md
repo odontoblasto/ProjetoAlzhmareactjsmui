@@ -59,7 +59,7 @@ Como você testará a solução no mundo real?
 Por se tratar de Saúde, temos que após a finalização do MVP, apresentar nosso modelo para os profissionais da saúde responsáveis pelo manejo desses pacientes como,a Medicina,a Psicologia, a Terapia Ocupacional.Esperamos que com a orientação desses profissionais, possamos adequar esse modelo proposto e realizar os estudos científicos necessários.
 <br/><br/>
 
-
+<img src="VAlzhma-2.0/screenshots/bgBlackOK.png"/>
 
 # Projeto Alzhma 2.0 
 
