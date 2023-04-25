@@ -32,7 +32,8 @@ https://github.com/odontoblasto/Alzhma2.0
 
 ## Link para o vídeo de demonstração da plataforma (Screencast)
 
-vídeo do App - https://www.youtube.com/watch?v=AmbYciU_m30
+vídeo do App - Ps: aumente o som !!!
+https://www.youtube.com/watch?v=2Tf0h0mIYNM
 
 ## Sprints
 
