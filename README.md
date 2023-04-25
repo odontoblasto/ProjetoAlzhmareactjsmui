@@ -121,6 +121,20 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 <img src="Alzhma-2.0/screenshots/MongoDB Atlas.png"/>
 
+### Página Testes Jest
+
+<img src="Alzhma-2.0/screenshots/Unt Test - Jest.png"/>
+
+### Página Deploy Firebase Console
+
+<img src="Alzhma-2.0/screenshots/Deploy - Firebase.png"/>
+
+### Página Deploy Firebase Home
+
+<img src="Alzhma-2.0/screenshots/Deploy - Firebase 1.png"/>
+
+
+
 
 ## Referências utilizadas na elaboração do projeto
 
