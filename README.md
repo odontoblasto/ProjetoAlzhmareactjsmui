@@ -32,6 +32,36 @@ vídeo do App - https://www.youtube.com/watch?v=AmbYciU_m30
 
 ## Sprints
 
+### Especificar o período da sprint: 05/04 a 12/04.
+ #### Meta da sprint 
+* Criar plano de telas iniciais 
+* Alinhar back, front e banco
+* Buscar novas atividades lúdicas para atualizar projeto
+* Listas as atividades previstas indicando o responsável
+* Buscar novas atividades [Leonardo, Carlos]
+* Criar plano de telas [Pedro]
+* Alinhar back, front e banco [Carlos, Leonardo e Pedro]
+
+### Especificar o período da sprint: 13/04  a 19/04.
+ #### Meta da sprint 
+* Organizar back com as novas atividades
+* Organizar front, design das abas
+* Realizar testes 
+* Listas as atividades previstas indicando o responsável
+* Finalizar integração back-end [Leonardo, Pedro]
+* Finalizar layout do front [Carlos]
+* Realizar testes [ Carlos, Leonardo, Pedro]
+* Deploy da aplicação;
+
+### Especificar o período da sprint: 20/04  a 26/04.
+ #### Meta da sprint 
+* Término Front-End com Autenticação Firebase/Google - concluído
+* Término da integração front/Back/BD - concluído
+* Listas as atividades previstas indicando o responsável
+* Realizar testes com GitHub Co-Pilot - [ Carlos, Leonardo, Pedro]-em execução
+* Deploy da aplicação;(Carlos) - a fazer
+
+
 ## Explicações sobre decisões tomadas no decorrer do Projeto
 
 * Tivemos muita dificuldade na criação do Projeto porque de forma indevida, "pensamos mais na solução no que no problema", já que a versão 1.0 estava enviesada por ter sido criada para um único "cliente". O projeto foi baseado na história familiar de um dos nossos integrantes que criou uma solução pessoal.
