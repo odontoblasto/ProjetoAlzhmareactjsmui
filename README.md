@@ -89,7 +89,7 @@ Essa contribuição definirá quais métricas e "features" avançadas devem ser 
 
 * Como requisitado nas orientações de projeto da Disciplina, utilizamos HTML,CSS, JS e ReactJS como
 bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno Carlos Eduardo, o principal agente do Front-End.
-* Utilizamos também, BootStrap, ReactStrap, Material UI , como Libs para a construção do Layout das páginas e  Google Firebase como "3° Partie" na autenticação de usuário.
+* Utilizamos também, BootStrap, ReactStrap, Material UI , como Libs para a construção do Layout das páginas e  Google Firebase como "3° Party" na autenticação de usuário.
 
 ### Back-End
 
