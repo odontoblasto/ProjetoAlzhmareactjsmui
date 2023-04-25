@@ -170,12 +170,12 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 * Mesmo tendo conseguido entregar uma "GMV" os seguintes descuidos devem ser sanados:
 
-* 1 - melhor escolha do Framework : utilizamos NPM como gerenciador de pacotes do Node, porém existem Ferramentas mais atuais que facilitam o manejo, a integração e deploy da aplicação como Next/Vercel , Yarn ;
+*  melhor escolha do Framework : utilizamos NPM como gerenciador de pacotes do Node, porém existem Ferramentas mais atuais que facilitam o manejo, a integração e deploy da aplicação como Next/Vercel , Yarn ;
 
-* 2 - melhor divisão de nosso tempo útil : o viés da versão 1.0, e a necessidade de requalificar nosso projeto, de forma mais genérica, removeu tempo necessário para o entendimento de ferramentas como o Cypress,que nos ajudaria na construção de teste E2E, que não foram executados.
+*  melhor divisão de nosso tempo útil : o viés da versão 1.0, e a necessidade de requalificar nosso projeto, de forma mais genérica, removeu tempo necessário para o entendimento de ferramentas como o Cypress,que nos ajudaria na construção de teste E2E, que não foram executados.
 *  Cremos que na necessiade de testar o 'comportamento' das funções e não somente a presença de componentes HTML;
 
-* 3 - melhor escolha de  componentes da Arquitetura : muito tempo foi perdido na integração entre Front/Back e BD - protocolo MERN.
+*  melhor escolha de  componentes da Arquitetura : muito tempo foi perdido na integração entre Front/Back e BD - protocolo MERN.
 *  O Google Firebase, por exemplo, facilita a integração MVP, com soluções , praticamente integradas ( Plug & Play ) - Auth, FireStore DataBase e Hosting, por exemplo.
 * Há  também outras plataformas como Netlify, Hostinger, AWS ...
 
@@ -186,9 +186,6 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 ### Página Home versão 3.0 - Next
 
 <img src="Alzhma-2.0/screenshots/The Alzhma_Next 3.0.png"/>
-
-# FIM
-
 
 
 ## Referências utilizadas na elaboração do projeto
