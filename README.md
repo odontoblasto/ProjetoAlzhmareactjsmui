@@ -29,6 +29,8 @@ https://github.com/odontoblasto/Alzhma2.0
 ## Link para o vídeo de demonstração da plataforma (Screencast)
 FALTA
 
+## Sprints
+
 ## Explicações sobre decisões tomadas no decorrer do Projeto
 
 * Tivemos muita dificuldade na criação do Projeto porque de forma indevida, "pensamos mais na solução no que no problema", já que a versão 1.0 estava enviesada por ter sido criada para um único "cliente". O projeto foi baseado na história familiar de um dos nossos integrantes que criou uma solução pessoal.
