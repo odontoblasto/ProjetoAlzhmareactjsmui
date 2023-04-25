@@ -142,7 +142,7 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 <img src="Alzhma-2.0/screenshots/Quiz Page.png"/>
 
-### Página do Quiz Update Question or Answer- Modal
+### Página do Quiz Update Question or Answer - Modal
 
 <img src="Alzhma-2.0/screenshots/Quiz Page - UpDate.png"/>
 
