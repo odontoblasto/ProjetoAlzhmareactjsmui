@@ -6,9 +6,9 @@
 
 # em Homenagem à Sra. Rosa Maria, vítima de Alzheimer em 01 de junho de 2022.
 #### "Se me obrigassem a dizer por que a amava,
-* sinto que a minha única resposta seria:
-* porque era Ela,
-* porque era Eu." - adapatado de Michel de Montaigne
+#### sinto que a minha única resposta seria:
+#### porque era Ela,
+#### porque era Eu." - adapatado de Michel de Montaigne
 
 #  Projeto Alzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
