@@ -124,7 +124,7 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 ### Escolha de ferramenta para deploy
 * Optamos por usar o Google Firebase por sua simplicidade e facilidade e pelo fato de nenhum dos integrantes da equipe possuir experiência prévia em deploy.
-
+https://alzhma.web.app/
 ## Screenshots
 
 ### Página Inicial
