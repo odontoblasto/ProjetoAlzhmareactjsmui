@@ -2,7 +2,7 @@
 
 #  Presents ...
 
-,img src="projeto/src/assets/images/imageHomeOK.png"/>
+<img src="projeto/src/assets/images/imageHomeOK.png"/>
 
 # em Homenagem à Sra. Rosa Maria, vítima de Alzheimer em 01 de junho de 2022.
 
