@@ -52,7 +52,7 @@
 
 ## Link para o vídeo de demonstração da plataforma (Screencast)
 
-vídeo do App - Ps: aumente o som !!!
+vídeo do App - 
 https://www.youtube.com/watch?v=2Tf0h0mIYNM
 
 ## Sprints
