@@ -123,39 +123,48 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 * MongoDB Atlas
 
 ### Escolha de ferramenta para deploy
-* Optamos por usar o Google Firebase por sua simplicidade e facilidade e pelo fato de nenhum dos integrantes da equipe possuir experiência prévia em deploy.
-https://alzhma.web.app/
+
+* Implementamos o FrontEnd no Firebase e Vercel.
+* Pela facilidade de integração, conseguimos implemetar Front/Back/DB na Vercel, porém não conseguimos conectar satisfatoriamnte todas as funcionalidades.
+* Falta corrigir a conexão entre Back e DB.
+
+* Deploy FrontEnd -
+* Firebase - https://alzhma.web.app/
+
+* Deploy Front/Back/DB -
+* Vercel/RailWay.App/MongoDB - https://alzhmavercel.vercel.app/
+
 ## Screenshots
 
-### Página Inicial
+### Página Inicial LocalHost
 
 <img src="Alzhma-2.0/screenshots/Home Page.png"/>
 
-### Página de Login
+### Página de Login  LocalHost
 
 <img src="Alzhma-2.0/screenshots/Login Page.png"/>
 
-### Página de Criação de Perguntas e Resposta
+### Página de Criação de Perguntas e Resposta  LocalHost
 
 <img src="Alzhma-2.0/screenshots/Create Page.png"/>
 
-### Página do Quiz
+### Página do Quiz  LocalHost
 
 <img src="Alzhma-2.0/screenshots/Quiz Page.png"/>
 
-### Página do Quiz Update Question or Answer - Modal
+### Página do Quiz Update Question or Answer - Modal - LocalHost
 
 <img src="Alzhma-2.0/screenshots/Quiz Page - UpDate.png"/>
 
-### Página do Auth Google FireBase
+### Página do Auth Google FireBase  LocalHost
 
 <img src="Alzhma-2.0/screenshots/Auth Page - FireBase.png"/>
 
-### Página do Backend
+### Página do Backend  LocalHost
 
 <img src="Alzhma-2.0/screenshots/BackEnd.png"/>
 
-### Página do MongoDb Atlas
+### Página do MongoDb Atlas  LocalHost
 
 <img src="Alzhma-2.0/screenshots/MongoDB Atlas.png"/>
 
@@ -170,6 +179,31 @@ https://alzhma.web.app/
 ### Página Deploy Firebase Home
 
 <img src="Alzhma-2.0/screenshots/Deploy - Firebase 1.png"/>
+
+### Página Deploy Vercel
+
+<img src="Alzhma-2.0/screenshots/Deploy Front - Vercel.png"/>
+
+### Página de Integração Vercel/Railway.app/MongoDB - front/Back/DB
+
+<img src="Alzhma-2.0/screenshots/Integração Front - Vercel-RailWay.App-MongoDB.png"/>
+
+### Página Vercel Home
+
+<img src="Alzhma-2.0/screenshots/Home Vercel.png"/>
+
+### Página Login Vercel
+
+<img src="Alzhma-2.0/screenshots/Create Vercel.png"/>
+
+### Página Create Vercel
+
+<img src="Alzhma-2.0/screenshots/Create Vercel.png"/>
+
+### Página Integração MongoDB/Vercel
+
+<img src="Alzhma-2.0/screenshots/Integração DB Vercel.png"/>
+
 
 # Avaliação do Aprendizado
 
