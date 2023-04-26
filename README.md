@@ -2,6 +2,10 @@
 
 #  Presents ...
 
+,img src="projeto/src/assets/images/imageHomeOK.png"/>
+
+# em Homenagem à Sra. Rosa Maria, vítima de Alzheimer em 01 de junho de 2022.
+
 #  Projeto Alzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
 
