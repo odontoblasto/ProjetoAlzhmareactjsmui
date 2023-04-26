@@ -13,6 +13,23 @@
 #  Projeto Alzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
 
+#### Página Home Alzhma 1.0
+
+<img src="Alzhma-2.0/screenshots/Home Alzhma1.0.png"/>
+
+#### Página Create Alzhma1.0
+
+<img src="Alzhma-2.0/screenshots/Create Alzhma 1.0.png"/>
+
+#### Página Create2 Alzhma1.0
+
+<img src="Alzhma-2.0/screenshots/Alzhma1.0.png"/>
+
+#### Página Quiz Alzhma 1.0
+
+<img src="Alzhma-2.0/screenshots/Quiz Alzhma1.0.png"/>
+
+
 # The Alzhma Project 2.0 
 <img src="Alzhma-2.0/screenshots/bgBlackOK.png"/>
 
