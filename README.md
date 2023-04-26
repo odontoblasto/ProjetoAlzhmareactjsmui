@@ -238,7 +238,6 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 
 *  melhor divisão de nosso tempo útil : o viés da versão 1.0, e a necessidade de requalificar nosso projeto, de forma mais genérica, removeu tempo necessário para o entendimento de ferramentas como o Cypress,que nos ajudaria na construção de teste E2E, que não foram executados.
 *  Cremos na necessdiade de testar o 'comportamento' das funções e não somente a presença de componentes HTML;
-*  
 *  melhor escolha de  componentes da Arquitetura : muito tempo foi perdido na integração entre Front/Back e BD - protocolo MERN.
 *  O Google Firebase, por exemplo, facilita a integração MVP, com soluções , praticamente integradas ( Plug & Play ) - Auth, FireStore DataBase e Hosting, por exemplo.
 * Há  também outras plataformas como Netlify, Hostinger, AWS, Vercel ...
