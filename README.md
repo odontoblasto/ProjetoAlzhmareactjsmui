@@ -1,6 +1,14 @@
+## Background
+* Esse repositório possui o código-fonte e a documentação do projeto da Disciplina de Engenharia de Software (IF-977) ministrada pelo Professor Vinicius Garcia, do CIn/UFPE.
+
 <img src="Alzhma-2.0/screenshots/3.png"/>
 
 #  Presents ...
+
+## Membros
+* Carlos Eduardo D.F. de Vasconcellos (cedfv)
+* Pedro Henrique Medeiros (phmfl)
+* Leonardo Bezerra de Oliveira (lbo)
 
 <img src="projeto/src/assets/images/imageHomeOK.png"/>
 
@@ -9,6 +17,12 @@
 #### sinto que a minha única resposta seria:
 #### porque era Ela,
 #### porque era Eu." - adapatado de Michel de Montaigne
+
+## Objetivo
+* O objetivo do projeto é construir uma aplicação (no formato MVP), que seja capaz de estimular cognitiva e digitalmente, pessoas acometidas pela Doença de Alzheimer.
+
+* Nossa aplicação se chama "The Alzhma Project 2.0" e pretende ser uma plataforma capaz de estimular a cognição e a memória de pessoas acometidas pela Doença de Alzheimer, podendo ser também utilizada por  pessoas com outros distúrbios de memória e cognição, por meio de atividades lúdicas.
+* Sendo assim, nossa missão é tentar fornecer uma plataforma digital lúdica que promova melhorias tanto no quadro clínico ,como no emocional dos pacientes.
 
 #  Projeto Alzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
@@ -29,27 +43,8 @@
 
 <img src="Alzhma-2.0/screenshots/Quiz Alzhma1.0.png"/>
 
-
 # The Alzhma Project 2.0 
 <img src="Alzhma-2.0/screenshots/bgBlackOK.png"/>
-
-## Código Fonte versão 2.0 -
-* P.S: com o intuito de evitar confusão, decidimos dividir os códigos fontes das 2 versões em repositórios separados.
-https://github.com/odontoblasto/Alzhma2.0
-
-## Membros
-* Carlos Eduardo D.F. de Vasconcellos (cedfv)
-* Pedro Henrique Medeiros (phmfl)
-* Leonardo Bezerra de Oliveira (lbo)
-
-## Background
-* Esse repositório possui o código-fonte e a documentação do projeto da Disciplina de Engenharia de Software (IF-977) ministrada pelo Professor Vinicius Garcia, do CIn/UFPE.
-
-## Objetivo
-* O objetivo do projeto é construir uma aplicação (no formato MVP), que seja capaz de estimular cognitiva e digitalmente, pessoas acometidas pela Doença de Alzheimer.
-
-* Nossa aplicação se chama "The Alzhma Project 2.0" e pretende ser uma plataforma capaz de estimular a cognição e a memória de pessoas acometidas pela Doença de Alzheimer, podendo ser também utilizada por  pessoas com outros distúrbios de memória e cognição, por meio de atividades lúdicas.
-* Sendo assim, nossa missão é tentar fornecer uma plataforma digital lúdica que promova melhorias tanto no quadro clínico ,como no emocional dos pacientes.
 
 ## Link para o projeto
 * versão 1.0 - https://github.com/odontoblasto/ProjetoAlzhmareactjsmui 
