@@ -18,14 +18,14 @@
 #### porque era Ela,
 #### porque era Eu." - adapatado de Michel de Montaigne
 
+#  Projeto Alzhma 1.0
+<img src="projeto/src/assets/images/logoS.png"/>
+
 ## Objetivo
 * O objetivo do projeto é construir uma aplicação (no formato MVP), que seja capaz de estimular cognitiva e digitalmente, pessoas acometidas pela Doença de Alzheimer.
 
 * Nossa aplicação se chama "The Alzhma Project 2.0" e pretende ser uma plataforma capaz de estimular a cognição e a memória de pessoas acometidas pela Doença de Alzheimer, podendo ser também utilizada por  pessoas com outros distúrbios de memória e cognição, por meio de atividades lúdicas.
 * Sendo assim, nossa missão é tentar fornecer uma plataforma digital lúdica que promova melhorias tanto no quadro clínico ,como no emocional dos pacientes.
-
-#  Projeto Alzhma 1.0
-<img src="projeto/src/assets/images/logoS.png"/>
 
 #### Página Home Alzhma 1.0
 
