@@ -13,10 +13,10 @@
 <img src="projeto/src/assets/images/imageHomeOK.png"/>
 
 ### em Homenagem à Sra. Rosa Maria, vítima de Alzheimer em 01 de Junho de 2022.
-#### "Se me obrigassem a dizer por que a amava,
-#### sinto que a minha única resposta seria:
-#### porque era Ela,
-#### porque era Eu." - adapatado de Michel de Montaigne
+<p> "Se me obrigassem a dizer por que a amava,</p>
+<p> sinto que a minha única resposta seria:</p>
+<p> porque era Ela,</p>
+<p> porque era Eu." - adapatado de Michel de Montaigne</p>
 
 #  Projeto Alzhma 1.0
 <img src="projeto/src/assets/images/logoS.png"/>
@@ -56,6 +56,8 @@ vídeo do App -
 https://www.youtube.com/watch?v=2Tf0h0mIYNM
 
 ## Sprints
+
+### Notion - https://www.notion.so/eb6cf17894f2461e9b5572baa1e43ccb?v=cd505245f243461a99aa71b8a81d663c
 
 ### Especificar o período da sprint: 05/04 a 12/04.
  #### Meta da sprint 
@@ -127,6 +129,7 @@ bases da programação. A curva de aprendizado foi de +- 6 meses, sendo o aluno 
 <img src="Alzhma-2.0/screenshots/Modelo ER-Alzhma2.0.jpg"/>
 
 ### Ferramentas utilizadas no Projeto
+* Notion - https://www.notion.so/eb6cf17894f2461e9b5572baa1e43ccb?v=cd505245f243461a99aa71b8a81d663c
 * Javascript
 * React JS
 * Python
